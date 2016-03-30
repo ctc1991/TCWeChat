@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6823DE8C1CAB656800CC6572 /* MessageVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6823DE8B1CAB656800CC6572 /* MessageVc.swift */; };
+		6823DE8E1CAB658100CC6572 /* ContactVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6823DE8D1CAB658100CC6572 /* ContactVc.swift */; };
+		6823DE901CAB659300CC6572 /* DiscoveryVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6823DE8F1CAB659300CC6572 /* DiscoveryVc.swift */; };
+		6823DE921CAB659D00CC6572 /* MeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6823DE911CAB659D00CC6572 /* MeVc.swift */; };
+		6823DE941CAB6F8E00CC6572 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6823DE931CAB6F8E00CC6572 /* Message.storyboard */; };
+		6823DE961CAB6FA300CC6572 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6823DE951CAB6FA300CC6572 /* Contact.storyboard */; };
+		6823DE981CAB6FB000CC6572 /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6823DE971CAB6FB000CC6572 /* Discovery.storyboard */; };
+		6823DE9A1CAB6FB900CC6572 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6823DE991CAB6FB900CC6572 /* Me.storyboard */; };
+		685DDFA91CABA8FB00FED49A /* DiscoveryVcTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685DDFA71CABA8FB00FED49A /* DiscoveryVcTCell.swift */; };
+		685DDFAA1CABA8FB00FED49A /* DiscoveryVcTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685DDFA81CABA8FB00FED49A /* DiscoveryVcTCell.xib */; };
+		685DDFAC1CABB61600FED49A /* TimelineVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685DDFAB1CABB61600FED49A /* TimelineVc.swift */; };
+		685DDFAE1CABD41100FED49A /* TimelineMoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685DDFAD1CABD41100FED49A /* TimelineMoreButton.swift */; };
 		6862A9161C98F1B000DE91B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862A9101C98F1B000DE91B6 /* AppDelegate.swift */; };
 		6862A9171C98F1B000DE91B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6862A9111C98F1B000DE91B6 /* Assets.xcassets */; };
 		6862A91A1C98F1B000DE91B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6862A9141C98F1B000DE91B6 /* Main.storyboard */; };
@@ -16,6 +28,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6823DE8B1CAB656800CC6572 /* MessageVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageVc.swift; sourceTree = "<group>"; };
+		6823DE8D1CAB658100CC6572 /* ContactVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactVc.swift; sourceTree = "<group>"; };
+		6823DE8F1CAB659300CC6572 /* DiscoveryVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryVc.swift; sourceTree = "<group>"; };
+		6823DE911CAB659D00CC6572 /* MeVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeVc.swift; sourceTree = "<group>"; };
+		6823DE931CAB6F8E00CC6572 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		6823DE951CAB6FA300CC6572 /* Contact.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Contact.storyboard; sourceTree = "<group>"; };
+		6823DE971CAB6FB000CC6572 /* Discovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
+		6823DE991CAB6FB900CC6572 /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
+		685DDFA71CABA8FB00FED49A /* DiscoveryVcTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryVcTCell.swift; sourceTree = "<group>"; };
+		685DDFA81CABA8FB00FED49A /* DiscoveryVcTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoveryVcTCell.xib; sourceTree = "<group>"; };
+		685DDFAB1CABB61600FED49A /* TimelineVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineVc.swift; sourceTree = "<group>"; };
+		685DDFAD1CABD41100FED49A /* TimelineMoreButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineMoreButton.swift; sourceTree = "<group>"; };
 		6862A8FA1C98F16700DE91B6 /* TCWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6862A9101C98F1B000DE91B6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6862A9111C98F1B000DE91B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,6 +116,7 @@
 		6862A92D1C98F32F00DE91B6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6823DE8D1CAB658100CC6572 /* ContactVc.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -106,6 +131,7 @@
 		6862A92F1C98F32F00DE91B6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6823DE951CAB6FA300CC6572 /* Contact.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -123,6 +149,8 @@
 		6862A9311C98F32F00DE91B6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6823DE8F1CAB659300CC6572 /* DiscoveryVc.swift */,
+				685DDFAB1CABB61600FED49A /* TimelineVc.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -137,6 +165,10 @@
 		6862A9331C98F32F00DE91B6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6823DE971CAB6FB000CC6572 /* Discovery.storyboard */,
+				685DDFA71CABA8FB00FED49A /* DiscoveryVcTCell.swift */,
+				685DDFA81CABA8FB00FED49A /* DiscoveryVcTCell.xib */,
+				685DDFAD1CABD41100FED49A /* TimelineMoreButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -154,6 +186,7 @@
 		6862A9351C98F32F00DE91B6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6823DE911CAB659D00CC6572 /* MeVc.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -168,6 +201,7 @@
 		6862A9371C98F32F00DE91B6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6823DE991CAB6FB900CC6572 /* Me.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,6 +219,7 @@
 		6862A9391C98F32F00DE91B6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6823DE8B1CAB656800CC6572 /* MessageVc.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -199,6 +234,7 @@
 		6862A93B1C98F32F00DE91B6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6823DE931CAB6F8E00CC6572 /* Message.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -261,7 +297,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6823DE981CAB6FB000CC6572 /* Discovery.storyboard in Resources */,
+				685DDFAA1CABA8FB00FED49A /* DiscoveryVcTCell.xib in Resources */,
 				6862A9171C98F1B000DE91B6 /* Assets.xcassets in Resources */,
+				6823DE9A1CAB6FB900CC6572 /* Me.storyboard in Resources */,
+				6823DE961CAB6FA300CC6572 /* Contact.storyboard in Resources */,
+				6823DE941CAB6F8E00CC6572 /* Message.storyboard in Resources */,
 				6862A91A1C98F1B000DE91B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,10 +314,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6823DE921CAB659D00CC6572 /* MeVc.swift in Sources */,
 				6862A93D1C98F36000DE91B6 /* TabBarController.swift in Sources */,
 				6862A93F1C98F37200DE91B6 /* NavigationController.swift in Sources */,
+				6823DE8C1CAB656800CC6572 /* MessageVc.swift in Sources */,
+				6823DE901CAB659300CC6572 /* DiscoveryVc.swift in Sources */,
+				685DDFAE1CABD41100FED49A /* TimelineMoreButton.swift in Sources */,
 				6862A91B1C98F1B000DE91B6 /* ViewController.swift in Sources */,
+				685DDFA91CABA8FB00FED49A /* DiscoveryVcTCell.swift in Sources */,
+				685DDFAC1CABB61600FED49A /* TimelineVc.swift in Sources */,
 				6862A9161C98F1B000DE91B6 /* AppDelegate.swift in Sources */,
+				6823DE8E1CAB658100CC6572 /* ContactVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
