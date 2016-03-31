@@ -26,8 +26,8 @@ class TimelineVc: ViewController {
         headBackView.layer.borderColor = UIColor(red: 205/255.0, green: 205/255.0, blue: 205/255.0, alpha: 1.0).CGColor
         headBackView.layer.borderWidth = 0.5
         
-        let sd = TimelineMoreButton.button(origin: CGPoint(x: 30, y: 250))
-        view.addSubview(sd)
+//        let sd = TimelineMoreButton.button(origin: CGPoint(x: 30, y: 250))
+//        view.addSubview(sd)
         
         
         

@@ -35,7 +35,7 @@ UITableViewDelegate {
         case 3:
             return 2
         default:
-            return 2
+            return 0
         }
     }
     
@@ -67,7 +67,7 @@ UITableViewDelegate {
     }
     //tableview delegate
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 43.0
+        return 44.0
     }
     
     func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {

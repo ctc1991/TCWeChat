@@ -31,12 +31,12 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Card_ArrowGrey" translatesAutoresizingMaskIntoConstraints="NO" id="XQK-ht-xrO">
-                        <rect key="frame" x="296" y="14.5" width="9" height="13"/>
+                        <rect key="frame" x="296" y="16" width="9" height="13"/>
                     </imageView>
                 </subviews>
                 <constraints>
                     <constraint firstItem="jJD-q5-gUy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="M1F-fK-jcv"/>
-                    <constraint firstItem="XQK-ht-xrO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14.5" id="OkG-OE-08e"/>
+                    <constraint firstItem="XQK-ht-xrO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="OkG-OE-08e"/>
                     <constraint firstAttribute="trailing" secondItem="XQK-ht-xrO" secondAttribute="trailing" constant="15" id="UeN-qf-8qM"/>
                     <constraint firstItem="jSU-WE-ybk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="eX0-Sq-wrS"/>
                     <constraint firstItem="jSU-WE-ybk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10.5" id="jUm-DL-ZmN"/>

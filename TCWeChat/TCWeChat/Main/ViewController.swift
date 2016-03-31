@@ -29,13 +29,13 @@ UIGestureRecognizerDelegate {
     
     func setBackBtn(title title: String?) {
         let btn = UIButton(type: UIButtonType.Custom)
-        btn.frame = CGRect(x: 0, y: 0, width: 46, height: 17.5)
+        btn.frame = CGRect(x: -7, y: 0, width: 46, height: 17.5)
         btn.setImage(UIImage(named: "fts_search_backicon"), forState: UIControlState.Normal)
         btn.addTarget(self, action: "backPreviousPage", forControlEvents: UIControlEvents.TouchUpInside)
         btn.setTitle(title, forState: UIControlState.Normal)
         btn.titleLabel?.font = UIFont.systemFontOfSize(15.5)
-        btn.titleEdgeInsets = UIEdgeInsetsMake(0, 4, 0, 0)
-        btn.imageEdgeInsets = UIEdgeInsetsMake(0, -4, 0, 0)
+        btn.titleEdgeInsets = UIEdgeInsetsMake(0, -7, 0, 0)
+        btn.imageEdgeInsets = UIEdgeInsetsMake(0, -14, 0, 0)
         let left = UIBarButtonItem(customView: btn)
         self.navigationItem.leftBarButtonItem = left
 

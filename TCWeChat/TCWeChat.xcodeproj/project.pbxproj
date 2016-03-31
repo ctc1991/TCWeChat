@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680B84E61CACEE9D00309A33 /* MeHeadTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680B84E41CACEE9D00309A33 /* MeHeadTCell.swift */; };
+		680B84E71CACEE9D00309A33 /* MeHeadTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 680B84E51CACEE9D00309A33 /* MeHeadTCell.xib */; };
+		680B84E91CACF6DF00309A33 /* PersonalInfoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680B84E81CACF6DF00309A33 /* PersonalInfoVc.swift */; };
 		6823DE8C1CAB656800CC6572 /* MessageVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6823DE8B1CAB656800CC6572 /* MessageVc.swift */; };
 		6823DE8E1CAB658100CC6572 /* ContactVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6823DE8D1CAB658100CC6572 /* ContactVc.swift */; };
 		6823DE901CAB659300CC6572 /* DiscoveryVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6823DE8F1CAB659300CC6572 /* DiscoveryVc.swift */; };
@@ -28,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		680B84E41CACEE9D00309A33 /* MeHeadTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeHeadTCell.swift; sourceTree = "<group>"; };
+		680B84E51CACEE9D00309A33 /* MeHeadTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeHeadTCell.xib; sourceTree = "<group>"; };
+		680B84E81CACF6DF00309A33 /* PersonalInfoVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoVc.swift; sourceTree = "<group>"; };
 		6823DE8B1CAB656800CC6572 /* MessageVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageVc.swift; sourceTree = "<group>"; };
 		6823DE8D1CAB658100CC6572 /* ContactVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactVc.swift; sourceTree = "<group>"; };
 		6823DE8F1CAB659300CC6572 /* DiscoveryVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryVc.swift; sourceTree = "<group>"; };
@@ -187,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				6823DE911CAB659D00CC6572 /* MeVc.swift */,
+				680B84E81CACF6DF00309A33 /* PersonalInfoVc.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -202,6 +209,8 @@
 			isa = PBXGroup;
 			children = (
 				6823DE991CAB6FB900CC6572 /* Me.storyboard */,
+				680B84E41CACEE9D00309A33 /* MeHeadTCell.swift */,
+				680B84E51CACEE9D00309A33 /* MeHeadTCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680B84E71CACEE9D00309A33 /* MeHeadTCell.xib in Resources */,
 				6823DE981CAB6FB000CC6572 /* Discovery.storyboard in Resources */,
 				685DDFAA1CABA8FB00FED49A /* DiscoveryVcTCell.xib in Resources */,
 				6862A9171C98F1B000DE91B6 /* Assets.xcassets in Resources */,
@@ -314,12 +324,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680B84E61CACEE9D00309A33 /* MeHeadTCell.swift in Sources */,
 				6823DE921CAB659D00CC6572 /* MeVc.swift in Sources */,
 				6862A93D1C98F36000DE91B6 /* TabBarController.swift in Sources */,
 				6862A93F1C98F37200DE91B6 /* NavigationController.swift in Sources */,
 				6823DE8C1CAB656800CC6572 /* MessageVc.swift in Sources */,
 				6823DE901CAB659300CC6572 /* DiscoveryVc.swift in Sources */,
 				685DDFAE1CABD41100FED49A /* TimelineMoreButton.swift in Sources */,
+				680B84E91CACF6DF00309A33 /* PersonalInfoVc.swift in Sources */,
 				6862A91B1C98F1B000DE91B6 /* ViewController.swift in Sources */,
 				685DDFA91CABA8FB00FED49A /* DiscoveryVcTCell.swift in Sources */,
 				685DDFAC1CABB61600FED49A /* TimelineVc.swift in Sources */,
