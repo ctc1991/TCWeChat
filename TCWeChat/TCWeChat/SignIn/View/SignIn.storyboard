@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--First Lunch Vc-->
@@ -20,13 +21,63 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9o5-c2-1pg">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxJ-E0-dkq">
+                                <rect key="frame" x="252" y="38" width="52" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="简体中文">
+                                    <color key="titleColor" red="0.41960784313725491" green="0.41960784313725491" blue="0.41960784313725491" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A15-n3-4VO">
+                                <rect key="frame" x="20" y="501" width="130" height="42"/>
+                                <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="sJt-le-duL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="登录">
+                                    <color key="titleColor" red="0.27058823529411763" green="0.27058823529411763" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="signIn:" destination="Bvb-Jn-qwA" eventType="touchUpInside" id="kPb-vX-6Hc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBH-YJ-ggl">
+                                <rect key="frame" x="160" y="501" width="140" height="42"/>
+                                <color key="backgroundColor" red="0.023529411764705882" green="0.73725490196078436" blue="0.015686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="NZq-yW-0cq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="注册">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="PdD-dC-NIK" firstAttribute="top" secondItem="IBH-YJ-ggl" secondAttribute="bottom" constant="25" id="23s-lD-eew"/>
                             <constraint firstAttribute="trailing" secondItem="9o5-c2-1pg" secondAttribute="trailing" id="2PG-0M-yi8"/>
+                            <constraint firstAttribute="trailing" secondItem="lxJ-E0-dkq" secondAttribute="trailing" constant="15.5" id="7h6-6y-4TS"/>
+                            <constraint firstItem="lxJ-E0-dkq" firstAttribute="top" secondItem="Ddu-gK-gaN" secondAttribute="top" constant="38" id="FJi-Kf-bOk"/>
+                            <constraint firstItem="IBH-YJ-ggl" firstAttribute="leading" secondItem="Ddu-gK-gaN" secondAttribute="centerX" id="Jy6-t9-25P"/>
                             <constraint firstItem="9o5-c2-1pg" firstAttribute="leading" secondItem="Ddu-gK-gaN" secondAttribute="leading" id="KFj-I0-92b"/>
                             <constraint firstItem="PdD-dC-NIK" firstAttribute="top" secondItem="9o5-c2-1pg" secondAttribute="bottom" id="aXE-qM-Dd9"/>
+                            <constraint firstItem="PdD-dC-NIK" firstAttribute="top" secondItem="A15-n3-4VO" secondAttribute="bottom" constant="25" id="cfc-bB-yJi"/>
+                            <constraint firstAttribute="trailing" secondItem="IBH-YJ-ggl" secondAttribute="trailing" constant="20" id="ire-bu-QkF"/>
                             <constraint firstItem="9o5-c2-1pg" firstAttribute="top" secondItem="Ddu-gK-gaN" secondAttribute="top" id="j21-Yh-bnq"/>
+                            <constraint firstItem="A15-n3-4VO" firstAttribute="leading" secondItem="Ddu-gK-gaN" secondAttribute="leading" constant="20" id="mvO-mY-Za6"/>
+                            <constraint firstItem="A15-n3-4VO" firstAttribute="trailing" secondItem="Ddu-gK-gaN" secondAttribute="centerX" constant="-10" id="nZM-AH-PaV"/>
                         </constraints>
                     </view>
                     <connections>

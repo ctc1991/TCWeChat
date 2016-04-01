@@ -13,7 +13,27 @@ class FirstLunchVc: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        imageView.image = UIImage(named: "LaunchImage-800-667h@2x")
+        
+        switch AppTool.screenSize() {
+        case .inch_35:
+            imageView.image = UIImage(named: "LaunchImage@2x")
+        case .inch_40:
+            imageView.image = UIImage(named: "LaunchImage-568h@2x")
+        case .inch_47:
+            imageView.image = UIImage(named: "LaunchImage-800-667h@2x")
+        case .inch_55:
+            imageView.image = UIImage(named: "LaunchImage-800-Portrait-736h@3x")
+        default:
+            break
+        }
     }
-
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
+    
+    @IBAction func signIn(sender: UIButton) {
+        presentViewController(TabBarController(), animated: true, completion: nil)
+    }
+    
 }

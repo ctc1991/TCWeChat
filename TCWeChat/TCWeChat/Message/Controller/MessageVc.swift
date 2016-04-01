@@ -14,5 +14,4 @@ class MessageVc: ViewController {
         super.viewDidLoad()
         title = "微信"
     }
-
 }

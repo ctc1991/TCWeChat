@@ -13,12 +13,30 @@ UIGestureRecognizerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // 状态栏风格
-        UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
-        // 显示状态栏
-        UIApplication.sharedApplication().setStatusBarHidden(false, withAnimation: UIStatusBarAnimation.None)
+        
+        if (!prefersStatusBarHidden()) {
+            // 白色状态栏
+            switch preferredStatusBarStyle() {
+            case .LightContent:
+                self.navigationController!.navigationBar.barStyle = UIBarStyle.Black;
+            case .Default:
+                self.navigationController!.navigationBar.barStyle = UIBarStyle.Default;
+            default:
+                break
+            }
+        }
         // 右滑屏幕左侧边缘可返回
-        self.navigationController!.interactivePopGestureRecognizer!.delegate = self;
+        if self.navigationController != nil {
+            self.navigationController!.interactivePopGestureRecognizer!.delegate = self;
+        }
+    }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return false
+    }
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
     }
     
     func pushForTabbarToSb(sb sb: String?, vc: String?) {

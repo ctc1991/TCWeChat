@@ -14,10 +14,10 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="87.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Card_ArrowGrey" translatesAutoresizingMaskIntoConstraints="NO" id="EHO-jv-axE">
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Card_ArrowGrey" translatesAutoresizingMaskIntoConstraints="NO" id="EHO-jv-axE">
                         <rect key="frame" x="296" y="38" width="9" height="13"/>
                     </imageView>
-                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qrcode" translatesAutoresizingMaskIntoConstraints="NO" id="XgC-I2-R9D">
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="qrcode" translatesAutoresizingMaskIntoConstraints="NO" id="XgC-I2-R9D">
                         <rect key="frame" x="268" y="36" width="17" height="17"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="17" id="Bur-fY-Kcs"/>
@@ -37,7 +37,7 @@
                             <constraint firstAttribute="height" constant="13" id="RtM-r6-jhr"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="微信号:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5X-sv-wfa">
