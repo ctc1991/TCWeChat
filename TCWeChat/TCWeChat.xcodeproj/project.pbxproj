@@ -18,6 +18,8 @@
 		6823DE961CAB6FA300CC6572 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6823DE951CAB6FA300CC6572 /* Contact.storyboard */; };
 		6823DE981CAB6FB000CC6572 /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6823DE971CAB6FB000CC6572 /* Discovery.storyboard */; };
 		6823DE9A1CAB6FB900CC6572 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6823DE991CAB6FB900CC6572 /* Me.storyboard */; };
+		6839B0571CAE52020021DEFF /* FirstLunchVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839B0561CAE52020021DEFF /* FirstLunchVc.swift */; };
+		6839B0591CAE52120021DEFF /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6839B0581CAE52120021DEFF /* SignIn.storyboard */; };
 		685DDFA91CABA8FB00FED49A /* DiscoveryVcTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685DDFA71CABA8FB00FED49A /* DiscoveryVcTCell.swift */; };
 		685DDFAA1CABA8FB00FED49A /* DiscoveryVcTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685DDFA81CABA8FB00FED49A /* DiscoveryVcTCell.xib */; };
 		685DDFAC1CABB61600FED49A /* TimelineVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685DDFAB1CABB61600FED49A /* TimelineVc.swift */; };
@@ -42,6 +44,8 @@
 		6823DE951CAB6FA300CC6572 /* Contact.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Contact.storyboard; sourceTree = "<group>"; };
 		6823DE971CAB6FB000CC6572 /* Discovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
 		6823DE991CAB6FB900CC6572 /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
+		6839B0561CAE52020021DEFF /* FirstLunchVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstLunchVc.swift; sourceTree = "<group>"; };
+		6839B0581CAE52120021DEFF /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		685DDFA71CABA8FB00FED49A /* DiscoveryVcTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryVcTCell.swift; sourceTree = "<group>"; };
 		685DDFA81CABA8FB00FED49A /* DiscoveryVcTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoveryVcTCell.xib; sourceTree = "<group>"; };
 		685DDFAB1CABB61600FED49A /* TimelineVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineVc.swift; sourceTree = "<group>"; };
@@ -67,6 +71,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6839B0521CAE51D00021DEFF /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				6839B0531CAE51D00021DEFF /* Controller */,
+				6839B0541CAE51D00021DEFF /* Model */,
+				6839B0551CAE51D00021DEFF /* View */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		6839B0531CAE51D00021DEFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6839B0561CAE52020021DEFF /* FirstLunchVc.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6839B0541CAE51D00021DEFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6839B0551CAE51D00021DEFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6839B0581CAE52120021DEFF /* SignIn.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6862A8F11C98F16700DE91B6 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				6862A90F1C98F1B000DE91B6 /* Main */,
+				6839B0521CAE51D00021DEFF /* SignIn */,
 				6862A9381C98F32F00DE91B6 /* Message */,
 				6862A92C1C98F32F00DE91B6 /* Contact */,
 				6862A9301C98F32F00DE91B6 /* Discovery */,
@@ -310,6 +348,7 @@
 				6823DE981CAB6FB000CC6572 /* Discovery.storyboard in Resources */,
 				685DDFAA1CABA8FB00FED49A /* DiscoveryVcTCell.xib in Resources */,
 				6862A9171C98F1B000DE91B6 /* Assets.xcassets in Resources */,
+				6839B0591CAE52120021DEFF /* SignIn.storyboard in Resources */,
 				6823DE9A1CAB6FB900CC6572 /* Me.storyboard in Resources */,
 				6823DE961CAB6FA300CC6572 /* Contact.storyboard in Resources */,
 				6823DE941CAB6F8E00CC6572 /* Message.storyboard in Resources */,
@@ -326,6 +365,7 @@
 			files = (
 				680B84E61CACEE9D00309A33 /* MeHeadTCell.swift in Sources */,
 				6823DE921CAB659D00CC6572 /* MeVc.swift in Sources */,
+				6839B0571CAE52020021DEFF /* FirstLunchVc.swift in Sources */,
 				6862A93D1C98F36000DE91B6 /* TabBarController.swift in Sources */,
 				6862A93F1C98F37200DE91B6 /* NavigationController.swift in Sources */,
 				6823DE8C1CAB656800CC6572 /* MessageVc.swift in Sources */,

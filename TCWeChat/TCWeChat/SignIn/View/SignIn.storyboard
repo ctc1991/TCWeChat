@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--First Lunch Vc-->
+        <scene sceneID="94M-ld-yA3">
+            <objects>
+                <viewController storyboardIdentifier="FirstLunchVc" id="Bvb-Jn-qwA" customClass="FirstLunchVc" customModule="TCWeChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="T55-A3-0RI"/>
+                        <viewControllerLayoutGuide type="bottom" id="PdD-dC-NIK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ddu-gK-gaN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9o5-c2-1pg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9o5-c2-1pg" secondAttribute="trailing" id="2PG-0M-yi8"/>
+                            <constraint firstItem="9o5-c2-1pg" firstAttribute="leading" secondItem="Ddu-gK-gaN" secondAttribute="leading" id="KFj-I0-92b"/>
+                            <constraint firstItem="PdD-dC-NIK" firstAttribute="top" secondItem="9o5-c2-1pg" secondAttribute="bottom" id="aXE-qM-Dd9"/>
+                            <constraint firstItem="9o5-c2-1pg" firstAttribute="top" secondItem="Ddu-gK-gaN" secondAttribute="top" id="j21-Yh-bnq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="9o5-c2-1pg" id="UFI-rd-agW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zgI-L3-lDU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="370"/>
+        </scene>
+    </scenes>
+</document>

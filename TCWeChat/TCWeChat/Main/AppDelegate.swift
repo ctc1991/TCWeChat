@@ -15,10 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        self.window?.makeKeyAndVisible()
-        let root  = TabBarController()
-        self.window?.rootViewController=root
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window?.makeKeyAndVisible()
+//        let root  = TabBarController()
+        let root = UIStoryboard(name: "SignIn", bundle: nil).instantiateViewControllerWithIdentifier("FirstLunchVc")
+        window?.rootViewController = root
         return true
     }
 

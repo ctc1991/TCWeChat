@@ -24,7 +24,6 @@ class TabBarController: UITabBarController {
         self.addSubVc(sbName: "Contact", vcId: "ContactVc", title: "通讯录", imageName: "tabbar_contacts", selectedImageName: "tabbar_contactsHL")
         self.addSubVc(sbName: "Discovery", vcId: "DiscoveryVc", title: "发现", imageName: "tabbar_discover", selectedImageName: "tabbar_discoverHL")
         self.addSubVc(sbName: "Me", vcId: "MeVc", title: "我", imageName: "tabbar_me", selectedImageName: "tabbar_meHL")
-        
     }
     /**
      添加一个子控制器
